@@ -1,0 +1,86 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+.dart_tool
+.idea
+
+# Unity .NET
+*.sln
+*.csproj
+*.unityproj
+*.sln.meta
+*.csproj.meta
+*.unityproj.meta
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Visual Studio cache directory
+.vs/
+
+# Flutter (Flutter 项目根目录已有一些忽略规则，这里添加 Unity 特定的)
+unity/unity_demo/Assets/External/
+unity/unity_demo/ProjectSettings/ProjectVersion.txt
+unity/unity_demo/Packages/packages-lock.json
+
+# Gradle
+android/unityLibrary/
+ios/UnityLibrary/
+
+# Android Studio
+android/.gradle/
+android/app/build/
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/UnityLibrary/Logs/
+ios/UnityLibrary/xcuserdata/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+# Libraries should not include pubspec.lock, per https://dart.dev/guides/libraries/private-files#pubspeclock.
+/pubspec.lock
+**/doc/api/
+.dart_tool/
+.flutter-plugins-dependencies
+/build/
+/coverage/
+
